@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* https://uigradients.com/#Summer */
+  background: #22c1c3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Helvetica Neue';
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+h3 {
+  color: rgba(255, 255, 255, .5);
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
